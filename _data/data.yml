@@ -31,27 +31,29 @@ sidebar:
       info:
         - item: Data Science
         - item: Mathematics
+        - item: Chess
 
 career-profile:
-    title: Career Profile
-    summary: |
-      I am an engineering student with a strong foundation in data science, machine learning, and applied mathematics. 
-      With hands-on experience deploying machine learning models in Kubernetes environments, I aim to further develop my skills in AI and big data technologies. I am passionate about working on innovative projects that involve cutting-edge machine learning techniques and data-driven solutions.
 
 education:
     title: Education
     info:
-      - degree: MSc in Engineering
+      - degree: <strong>MSc in Engineering</strong>
         university: Télécom Paris
+        image_file: /assets/images/telecom-paris-logo.png
+        size: 101px
         time: September 2023 - July 2025
         details: |
           Focusing on:
-            - Machine Learning
             - Data Science
-            - Advanced AI technologies
+            - Machine Learning
+            - Economics
 
-      - degree: Master's in Computer Science – Machine Learning for Data Science
+
+      - degree: <strong>Master's in CS – Machine Learning for Data Science</strong>
         university: Paris Descartes University
+        image_file: /assets/images/paris-descartes-logo.png
+        size: 81px
         time: September 2022 - June 2023
         details: |
           Coursework:
@@ -59,25 +61,31 @@ education:
             - NLP/ Text Mining
             - Supervised/ Unsupervised Learning
 
-      - degree: Master's in Applied Mathematics
+      - degree: <strong>Master's in Applied Mathematics</strong>
         university: Paris Dauphine-PSL University
+        image_file: /assets/images/dauphine-logo.png
+        size: 101px
         time: September 2021 - July 2022
         details: |
           Coursework:
-            - Data Analysis
+            - Linear Algebra
             - Statistics
             - Optimization
 
-      - degree: Bachelor's in Computer Science
+      - degree: <strong>Bachelor's in Computer Science</strong>
         university: Sorbonne University, Pierre and Marie Curie campus
+        image_file: /assets/images/sorbonne-logo.png
+        size: 81px
         time: September 2019 - July 2021
         details: |
           Coursework:
             - Advanced C Programming
             - Applied Algorithmics and Data Structures
 
-      - degree: Bachelor's in Mathematics
+      - degree: <strong>Bachelor's in Mathematics</strong>
         university: Sorbonne University, Pierre and Marie Curie campus
+        image_file: /assets/images/sorbonne-logo.png
+        size: 81px
         time: September 2019 - July 2021
         details: |
           Coursework:
@@ -87,22 +95,71 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Machine Learning Engineer Intern
+      - role: <strong>Machine Learning Engineer Intern</strong>
         time: July 2023 - August 2023
         company: SFR, Paris
+        image_file: /assets/images/sfr-altice-logo.png
+        size: 81px
         details: |
           - Deployed on-premise Kubernetes clusters for scalable Machine Learning operations.
-          - Implemented machine learning algorithms within Kubernetes.
-          - Collaborated on hyperparameter tuning and optimizing model performance.
+          - Implemented machine learning algorithms within Kubernetes environment.
+          - Facilitated Jupyter notebooks deployment for collaborative data exploration and analysis
+          - Contributed to hyperparameter tuning, optimizing model performance
+          - Collaborated with cross-functional teams to integrate ML solutions efficiently
 
-      - role: Data Technician
+      - role: <strong>Data Technician</strong>
         time: Summer 2019 & Summer 2022
         company: Kantar, Chambourcy, France
+        image_file: /assets/images/kantar-logo.png
+        size: 81px
         details: |
           - Completed assignments across two summer internships (2019 and 2022).
           - Developed VBA macros to automate data processing tasks.
           - Processed and managed large CSV files for data analysis.
           - Verified data quality and ensured conformity to standards during data acquisition.
+
+projects:
+    title: Projects
+    intro: >
+      These projects demonstrate my ability to work on innovative data science and machine learning applications.
+
+    assignments:
+      - title: Clash Royale Gameplay Segmentation
+        link: "#"
+        tagline: "Implemented Meta's SAM for advanced image segmentation of gameplay elements."
+        details: |
+          - Deployed the Segment Anything Model (SAM) locally for efficient segmentation of characters and health bars.
+          - Developed a transformer-based pipeline to enhance segmentation accuracy.
+
+      - title: Functional Programming in Scala
+        link: "#"
+        tagline: "Coursera project from EPFL"
+        details: |
+          - Learned the principles of functional programming using Scala.
+
+      - title: Data Science in Python
+        link: "#"
+        tagline: "Project from Michigan University-Coursera"
+        details: |
+          - Applied data science techniques using Python's data manipulation libraries.
+
+skills:
+    title: Skills & Proficiency
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: Docker & Kubernetes
+        level: 85%
+
+      - name:  PyTorch
+        level: 80%
+
+      - name: SQL & Data Processing
+        level: 90%
+
+      - name: Java
+        level: 80%
 
 certifications:
     title: Certifications
@@ -142,49 +199,6 @@ certifications:
         details: |
           Learned the fundamentals of data science, including data manipulation, analysis, and visualization using Python's core libraries such as pandas, numpy, and matplotlib.
           [View certification here](https://www.coursera.org/account/accomplishments/verify/FJDFLHHHKLPJ)
-
-projects:
-    title: Projects
-    intro: >
-      These projects demonstrate my ability to work on innovative data science and machine learning applications.
-
-    assignments:
-      - title: Clash Royale Gameplay Segmentation
-        link: "#"
-        tagline: "Implemented Meta's SAM for advanced image segmentation of gameplay elements."
-        details: |
-          - Deployed the Segment Anything Model (SAM) locally for efficient segmentation of characters and health bars.
-          - Developed a transformer-based pipeline to enhance segmentation accuracy.
-
-      - title: Functional Programming in Scala
-        link: "#"
-        tagline: "Coursera project from EPFL"
-        details: |
-          - Learned the principles of functional programming using Scala.
-
-      - title: Data Science in Python
-        link: "#"
-        tagline: "Project from Michigan University-Coursera"
-        details: |
-          - Applied data science techniques using Python's data manipulation libraries.
-
-skills:
-    title: Skills & Proficiency
-    toolset:
-      - name: Python
-        level: 90%
-
-      - name: Docker & Kubernetes
-        level: 85%
-
-      - name: TensorFlow & PyTorch
-        level: 80%
-
-      - name: SQL & Data Processing
-        level: 75%
-
-      - name: Java
-        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by Jalal Khaldi.
