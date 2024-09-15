@@ -38,7 +38,7 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: "<strong>Double Diploma : Master's in CS - Data Science Paris </strong>"
+      - degree: "<strong>Double Diploma : Master's in CS - DAC Paris </strong>"
         university: Sorbonne University
         image_file: /online-cv/assets/images/sorbonne-logo.png
         size: 101px
@@ -167,5 +167,3 @@ certifications:
         credentialurl: https://www.coursera.org/account/accomplishments/verify/FJDFLHHHKLPJ
 
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by Jalal Khaldi.
