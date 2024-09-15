@@ -10,7 +10,7 @@ sidebar:
     email: jalalkhaldi3@gmail.com
     phone: +33 6 62 30 68 67
     timezone: Europe/Paris
-    citizenship: French
+    citizenship: French / 24 years old
     linkedin: jalalkhaldi
     github: JalalKhal
 
@@ -44,7 +44,6 @@ education:
         size: 101px
         time: September 2024 - July 2025
         details: |
-          Focused on deep learning & ML:
           - Neural network architectures (CNNs, RNNs, LLMs)
           - Supervised & unsupervised learning
           - Reinforcement learning (Q-learning, Policy gradient, etc.)
@@ -57,7 +56,6 @@ education:
         size: 101px
         time: September 2023 - July 2025
         details: |
-          Focusing on:
             - Data Science
             - Economics
             - Human Sciences
@@ -67,42 +65,21 @@ education:
         image_file: /online-cv/assets/images/paris-descartes-logo.png
         size: 81px
         time: September 2022 - June 2023
-        details: |
-          Coursework:
-            - Machine Learning and Deep Learning
-            - NLP/ Text Mining
-            - Supervised/ Unsupervised Learning
+        details:
 
       - degree: <strong>Master's in Applied Mathematics</strong>
         university: Paris Dauphine-PSL University
         image_file: /online-cv/assets/images/dauphine-logo.png
         size: 101px
         time: September 2021 - July 2022
-        details: |
-          Coursework:
-            - Linear Algebra
-            - Statistics
-            - Optimization
+        details:
 
-      - degree: <strong>Bachelor's in Computer Science</strong>
+      - degree: <strong>Bachelor's in Computer Science</strong> & <strong> Mathematics</strong>
         university: Sorbonne University, Pierre and Marie Curie campus
         image_file: /online-cv/assets/images/sorbonne-logo.png
         size: 81px
         time: September 2019 - July 2021
-        details: |
-          Coursework:
-            - Advanced C Programming
-            - Applied Algorithmics and Data Structures
-
-      - degree: <strong>Bachelor's in Mathematics</strong>
-        university: Sorbonne University, Pierre and Marie Curie campus
-        image_file: /online-cv/assets/images/sorbonne-logo.png
-        size: 81px
-        time: September 2019 - July 2021
-        details: |
-          Coursework:
-            - Linear and Bilinear Algebra
-            - Measure Theory and Probabilities
+        details:
 
 experiences:
     title: Experiences
@@ -114,9 +91,8 @@ experiences:
         size: 81px
         details: |
           - Deployed on-premise Kubernetes clusters for scalable Machine Learning operations.
-          - Implemented machine learning algorithms within Kubernetes environment.
+          - Implemented machine learning models within Kubernetes environment.
           - Facilitated Jupyter notebooks deployment for collaborative data exploration and analysis
-          - Contributed to hyperparameter tuning, optimizing model performance
           - Collaborated with cross-functional teams to integrate ML solutions efficiently
 
       - role: <strong>Data Technician</strong>
@@ -132,7 +108,6 @@ experiences:
 
 projects:
     title: Projects
-    intro: >
 
     assignments:
       - title: Clash Royale Gameplay Segmentation
@@ -152,9 +127,6 @@ projects:
           - Configured and installed Kubeflow with a deep understanding of its software architecture, networking, and infrastructure to ensure successful deployment.
           - Implemented a complete end-to-end ML pipeline, from notebook creation to model training, evaluation, deployment, and serving in production.
           - Leveraged Kubernetes to manage microservices, providing scalable and portable ML workflows.
-          - Managed the infrastructure, including network settings, access controls, and resource allocation to support ML workloads efficiently.
-          - Worked extensively with Kubeflow components such as Pipelines, Katib, KServe, and the Central Dashboard to streamline ML processes.
-          - Achieved seamless integration of Kubeflow within the Kubernetes cluster at SFR, facilitating advanced machine learning projects.
 
       - title: Open Source Reflection and Analysis at SNCF
         link: "https://www.itforbusiness.fr/retrospective-2022-l-open-source-gagne-encore-du-terrain-58273"
@@ -162,66 +134,44 @@ projects:
         details: |
           - Conducted research with SNCF and Télécom Paris on Open Source practices and strategy.
           - Analyzed SNCF’s Open Source ecosystem and internal DSI positioning.
-          - Explored initiatives like PGGTIE, LF Energy, and OpenRail.
           - Interviewed key stakeholders to identify benefits and challenges of Open Source.
           - Proposed strategies for enhancing Open Source adoption in large organizations.
 
 skills:
-    title: Skills & Proficiency
+    title: programming language
     toolset:
       - name: Python
-        level: 90%
+        description: |
+          pandas | numpy | matplotlib | scikit-learn | scipy | tensorﬂow | pytorch | PySpark | kfp | mlflow
 
-      - name: Kubeflow & Kubernetes
-        level: 90%
+      - name: Java
+        description:
 
-      - name:  Docker
-        level: 90%
+      - name: Kubeflow
+        description: |
+          Docker | Kubernetes | AutoML
 
-      - name: Spark
-        level: 85%
-
-      - name: git | github | gitlab
-        level: 850%
+      - name: Versioning
+        description: |
+          git | github | gitlab
 
 certifications:
     title: Certifications
     list:
-      - name: Functional Programming Principles in Scala
-        start:
-        end:
-        organization: Coursera (EPFL)
-        details: |
-          Completed a course on the principles of functional programming using Scala, focusing on core concepts like immutability, higher-order functions, and recursion.
-          [View certification here](https://www.coursera.org/account/accomplishments/verify/SB6LYER5MM24)
+      - name: Functional Programming Principles in Scala (Coursera - EPFL)
+        credentialurl: https://www.coursera.org/account/accomplishments/verify/SB6LYER5MM24
 
-      - name: Neural Networks and Deep Learning
-        start:
-        end:
-        organization: DeepLearning.AI (Coursera)
+      - name: Neural Networks and Deep Learning (Coursera - DeepLearning.AI)
         credentialurl: https://www.coursera.org/account/accomplishments/verify/JNKCCBZCMA6F
-        details: |
-          Completed a highly-rated course on deep learning, focusing on the following skills:
-            - Deep Learning
-            - Python Programming
-            - Mathematics and Linear Algebra
-          [View certification here](https://www.coursera.org/account/accomplishments/verify/JNKCCBZCMA6F).
 
-      - name: "Data Manipulation at Scale : Systems and Algorithms"
-        start:
-        end:
-        organization: Washington University (Coursera)
-        details: |
-          Developed skills in handling large-scale data systems, including advanced algorithms and techniques for data processing and optimization.
-          [View certification here](https://www.coursera.org/account/accomplishments/verify/LGY8FAV7UQFE)
 
-      - name: Data Science in Python
-        start:
-        end:
-        organization: Michigan University (Coursera)
-        details: |
-          Learned the fundamentals of data science, including data manipulation, analysis, and visualization using Python's core libraries such as pandas, numpy, and matplotlib.
-          [View certification here](https://www.coursera.org/account/accomplishments/verify/FJDFLHHHKLPJ)
+      - name: "Data Manipulation at Scale : Systems and Algorithms (Washington University - Coursera)"
+        credentialurl: https://www.coursera.org/account/accomplishments/verify/LGY8FAV7UQFE
+
+
+      - name: Data Science in Python (Coursera - Michigan University)
+        credentialurl: https://www.coursera.org/account/accomplishments/verify/FJDFLHHHKLPJ
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by Jalal Khaldi.

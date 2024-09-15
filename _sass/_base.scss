@@ -98,8 +98,12 @@ p {
       }
     }
   }
+
   .container-block {
-    padding: 30px;
+    padding: 11px;
+    margin-bottom: 11px;
+    text-align: center;
+
   }
   .container-block-title {
     text-transform: uppercase;
@@ -171,10 +175,10 @@ p {
     color: darken($theme-color, 15%);
     position: relative;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 
   .experiences-section,
