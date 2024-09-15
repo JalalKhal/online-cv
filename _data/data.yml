@@ -40,7 +40,7 @@ education:
     info:
       - degree: "<strong>Double Diploma : Master's in CS - Data Science Paris </strong>"
         university: Sorbonne University
-        image_file: /assets/images/sorbonne-logo.png
+        image_file: /online-cv/assets/images/sorbonne-logo.png
         size: 101px
         time: September 2024 - July 2025
         details: |
@@ -53,7 +53,7 @@ education:
 
       - degree: <strong>MSc in Engineering</strong>
         university: Télécom Paris
-        image_file: /assets/images/telecom-paris-logo.png
+        image_file: /online-cv/assets/images/telecom-paris-logo.png
         size: 101px
         time: September 2023 - July 2025
         details: |
@@ -64,7 +64,7 @@ education:
 
       - degree: <strong>Master's in CS – Machine Learning for Data Science</strong>
         university: Paris Descartes University
-        image_file: /assets/images/paris-descartes-logo.png
+        image_file: /online-cv/assets/images/paris-descartes-logo.png
         size: 81px
         time: September 2022 - June 2023
         details: |
@@ -75,7 +75,7 @@ education:
 
       - degree: <strong>Master's in Applied Mathematics</strong>
         university: Paris Dauphine-PSL University
-        image_file: /assets/images/dauphine-logo.png
+        image_file: /online-cv/assets/images/dauphine-logo.png
         size: 101px
         time: September 2021 - July 2022
         details: |
@@ -86,7 +86,7 @@ education:
 
       - degree: <strong>Bachelor's in Computer Science</strong>
         university: Sorbonne University, Pierre and Marie Curie campus
-        image_file: /assets/images/sorbonne-logo.png
+        image_file: /online-cv/assets/images/sorbonne-logo.png
         size: 81px
         time: September 2019 - July 2021
         details: |
@@ -96,7 +96,7 @@ education:
 
       - degree: <strong>Bachelor's in Mathematics</strong>
         university: Sorbonne University, Pierre and Marie Curie campus
-        image_file: /assets/images/sorbonne-logo.png
+        image_file: /online-cv/assets/images/sorbonne-logo.png
         size: 81px
         time: September 2019 - July 2021
         details: |
@@ -110,7 +110,7 @@ experiences:
       - role: <strong>Machine Learning Engineer Intern</strong>
         time: July 2023 - August 2023
         company: SFR, Paris
-        image_file: /assets/images/sfr-altice-logo.png
+        image_file: /online-cv/assets/images/sfr-altice-logo.png
         size: 81px
         details: |
           - Deployed on-premise Kubernetes clusters for scalable Machine Learning operations.
@@ -122,7 +122,7 @@ experiences:
       - role: <strong>Data Technician</strong>
         time: Summer 2019 & Summer 2022
         company: Kantar, Chambourcy, France
-        image_file: /assets/images/kantar-logo.png
+        image_file: /online-cv/assets/images/kantar-logo.png
         size: 81px
         details: |
           - Completed assignments across two summer internships (2019 and 2022).
