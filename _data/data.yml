@@ -38,6 +38,19 @@ career-profile:
 education:
     title: Education
     info:
+      - degree: "<strong>Double Diploma : Master's in CS - Data Science Paris </strong>"
+        university: Sorbonne University
+        image_file: /assets/images/sorbonne-logo.png
+        size: 101px
+        time: September 2024 - July 2025
+        details: |
+          Focused on deep learning & ML:
+          - Neural network architectures (CNNs, RNNs, LLMs)
+          - Supervised & unsupervised learning
+          - Reinforcement learning (Q-learning, Policy gradient, etc.)
+          - Data processing with Apache Spark
+          - Emphasis on theory (statistical learning, optimization) & tools (PyTorch, TensorFlow)
+
       - degree: <strong>MSc in Engineering</strong>
         university: Télécom Paris
         image_file: /assets/images/telecom-paris-logo.png
@@ -46,9 +59,8 @@ education:
         details: |
           Focusing on:
             - Data Science
-            - Machine Learning
             - Economics
-
+            - Human Sciences
 
       - degree: <strong>Master's in CS – Machine Learning for Data Science</strong>
         university: Paris Descartes University
@@ -121,27 +133,38 @@ experiences:
 projects:
     title: Projects
     intro: >
-      These projects demonstrate my ability to work on innovative data science and machine learning applications.
 
     assignments:
       - title: Clash Royale Gameplay Segmentation
-        link: "#"
-        tagline: "Implemented Meta's SAM for advanced image segmentation of gameplay elements."
+        link: "https://segment-anything.com/"
+        tagline: "Implemented Meta's SAM (Tranformer Based Model) for advanced image segmentation of gameplay elements."
         details: |
-          - Deployed the Segment Anything Model (SAM) locally for efficient segmentation of characters and health bars.
-          - Developed a transformer-based pipeline to enhance segmentation accuracy.
+          - Studied SAM's research paper for an in-depth understanding of the model's suitability.
+          - Validated the model's effectiveness for Clash Royale segmentation tasks.
+          - Imported SAM via Hugging Face; scripted video extraction and segmentation.
+          - Employed object-oriented programming for code reusability and modularity.
 
-      - title: Functional Programming in Scala
-        link: "#"
-        tagline: "Coursera project from EPFL"
+      - title: Kubeflow Deployment on Kubernetes Cluster
+        link: "https://www.kubeflow.org/"
+        tagline: "Successfully deployed Kubeflow on a Kubernetes cluster for a full ML lifecycle management."
         details: |
-          - Learned the principles of functional programming using Scala.
+          - Deployed Kubeflow from scratch on a Kubernetes cluster, showcasing both DevOps and Data Engineering skills.
+          - Configured and installed Kubeflow with a deep understanding of its software architecture, networking, and infrastructure to ensure successful deployment.
+          - Implemented a complete end-to-end ML pipeline, from notebook creation to model training, evaluation, deployment, and serving in production.
+          - Leveraged Kubernetes to manage microservices, providing scalable and portable ML workflows.
+          - Managed the infrastructure, including network settings, access controls, and resource allocation to support ML workloads efficiently.
+          - Worked extensively with Kubeflow components such as Pipelines, Katib, KServe, and the Central Dashboard to streamline ML processes.
+          - Achieved seamless integration of Kubeflow within the Kubernetes cluster at SFR, facilitating advanced machine learning projects.
 
-      - title: Data Science in Python
-        link: "#"
-        tagline: "Project from Michigan University-Coursera"
+      - title: Open Source Reflection and Analysis at SNCF
+        link: "https://www.itforbusiness.fr/retrospective-2022-l-open-source-gagne-encore-du-terrain-58273"
+        tagline: "A comprehensive study on the adoption and effectiveness of Open Source within the SNCF ecosystem."
         details: |
-          - Applied data science techniques using Python's data manipulation libraries.
+          - Conducted research with SNCF and Télécom Paris on Open Source practices and strategy.
+          - Analyzed SNCF’s Open Source ecosystem and internal DSI positioning.
+          - Explored initiatives like PGGTIE, LF Energy, and OpenRail.
+          - Interviewed key stakeholders to identify benefits and challenges of Open Source.
+          - Proposed strategies for enhancing Open Source adoption in large organizations.
 
 skills:
     title: Skills & Proficiency
@@ -149,17 +172,17 @@ skills:
       - name: Python
         level: 90%
 
-      - name: Docker & Kubernetes
-        level: 85%
-
-      - name:  PyTorch
-        level: 80%
-
-      - name: SQL & Data Processing
+      - name: Kubeflow & Kubernetes
         level: 90%
 
-      - name: Java
-        level: 80%
+      - name:  Docker
+        level: 90%
+
+      - name: Spark
+        level: 85%
+
+      - name: git | github | gitlab
+        level: 850%
 
 certifications:
     title: Certifications
