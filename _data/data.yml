@@ -47,8 +47,7 @@ education:
           - Neural network architectures (CNNs, RNNs, LLMs)
           - Supervised & unsupervised learning
           - Reinforcement learning (Q-learning, Policy gradient, etc.)
-          - Data processing with Apache Spark
-          - Emphasis on theory (statistical learning, optimization) & tools (PyTorch, TensorFlow)
+          - Emphasis on theory (statistical learning, optimization...)
 
       - degree: <strong>MSc in Engineering</strong>
         university: Télécom Paris
@@ -93,7 +92,6 @@ experiences:
           - Deployed on-premise Kubernetes clusters for scalable Machine Learning operations.
           - Implemented machine learning models within Kubernetes environment.
           - Facilitated Jupyter notebooks deployment for collaborative data exploration and analysis
-          - Collaborated with cross-functional teams to integrate ML solutions efficiently
 
       - role: <strong>Data Technician</strong>
         time: Summer 2019 & Summer 2022
@@ -101,7 +99,6 @@ experiences:
         image_file: /online-cv/assets/images/kantar-logo.png
         size: 81px
         details: |
-          - Completed assignments across two summer internships (2019 and 2022).
           - Developed VBA macros to automate data processing tasks.
           - Processed and managed large CSV files for data analysis.
           - Verified data quality and ensured conformity to standards during data acquisition.
@@ -117,7 +114,6 @@ projects:
           - Studied SAM's research paper for an in-depth understanding of the model's suitability.
           - Validated the model's effectiveness for Clash Royale segmentation tasks.
           - Imported SAM via Hugging Face; scripted video extraction and segmentation.
-          - Employed object-oriented programming for code reusability and modularity.
 
       - title: Kubeflow Deployment on Kubernetes Cluster
         link: "https://www.kubeflow.org/"
@@ -125,8 +121,7 @@ projects:
         details: |
           - Deployed Kubeflow from scratch on a Kubernetes cluster, showcasing both DevOps and Data Engineering skills.
           - Configured and installed Kubeflow with a deep understanding of its software architecture, networking, and infrastructure to ensure successful deployment.
-          - Implemented a complete end-to-end ML pipeline, from notebook creation to model training, evaluation, deployment, and serving in production.
-          - Leveraged Kubernetes to manage microservices, providing scalable and portable ML workflows.
+          - Implemented a complete end-to-end scalable ML pipeline, from notebook creation to model training, evaluation, deployment, and serving in production.
 
       - title: Open Source Reflection and Analysis at SNCF
         link: "https://www.itforbusiness.fr/retrospective-2022-l-open-source-gagne-encore-du-terrain-58273"
@@ -135,7 +130,6 @@ projects:
           - Conducted research with SNCF and Télécom Paris on Open Source practices and strategy.
           - Analyzed SNCF’s Open Source ecosystem and internal DSI positioning.
           - Interviewed key stakeholders to identify benefits and challenges of Open Source.
-          - Proposed strategies for enhancing Open Source adoption in large organizations.
 
 skills:
     title: programming language

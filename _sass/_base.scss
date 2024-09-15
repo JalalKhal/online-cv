@@ -184,7 +184,7 @@ p {
   .experiences-section,
   .educations-section {
     .item {
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
   }
   .upper-row,
@@ -227,11 +227,8 @@ p {
     color: darken($theme-color, 15%);
   }
   .projects-section {
-    .intro {
-      margin-bottom: 30px;
-    }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
   }
   .oss-section {
@@ -239,7 +236,7 @@ p {
       margin-bottom: 30px;
     }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
   }
 
