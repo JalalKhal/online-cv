@@ -124,7 +124,7 @@ projects:
           - Implemented a complete end-to-end scalable ML pipeline, from notebook creation to model training, evaluation, deployment, and serving in production.
 
       - title: Open Source Reflection and Analysis at SNCF
-        link: "https://www.itforbusiness.fr/retrospective-2022-l-open-source-gagne-encore-du-terrain-58273"
+        link: "https://docs.google.com/document/d/12YOnekeXs5DlPdS8yQm9RYlRQaEplJP67MxEpo5rF08/edit?usp=sharing"
         tagline: "A comprehensive study on the adoption and effectiveness of Open Source within the SNCF ecosystem."
         details: |
           - Conducted research with SNCF and Télécom Paris on Open Source practices and strategy.
