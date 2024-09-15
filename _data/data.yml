@@ -4,7 +4,7 @@ sidebar:
     # Profile information
     name: Jalal Khaldi
     tagline: Engineering Student
-    avatar: profile.png  # Please place a 100x100 image in /assets/images/ folder.
+    #avatar: profile.png  # Please place a 100x100 image in /assets/images/ folder.
 
     # Sidebar links
     email: jalalkhaldi3@gmail.com
