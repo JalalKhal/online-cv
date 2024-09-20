@@ -38,14 +38,14 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: "<strong>Double Diploma : Master's in CS - DAC Paris </strong>"
+      - degree: "<strong>Double Degree : Master's in CS - DAC Paris </strong>"
         university: Sorbonne University
         image_file: /online-cv/assets/images/sorbonne-logo.png
         size: 101px
         time: September 2024 - July 2025
         details: |
-          - Neural network architectures (CNNs, RNNs, LLMs)
-          - Supervised & unsupervised learning
+          - Neural network architectures (NNs, CNNs, RNNs, LLMs...)
+          - [Semi]-Supervised & unsupervised learning
           - Reinforcement learning (Q-learning, Policy gradient, etc.)
           - Emphasis on theory (statistical learning, optimization...)
 
@@ -55,30 +55,23 @@ education:
         size: 101px
         time: September 2023 - July 2025
         details: |
-            - Data Science
-            - Economics
-            - Human Sciences
+            - Data Science (ML standard algorithms (trees, linear regression, SVM...) and Deep Neural Networks)
+            - Economics (Digital Finance, Strategic Management of Companies..)
+            - Human Sciences (Anthropology, Sociology of Contemporary Digital Technology..)
+          
+              GPA : 3.9 / 4.0
 
       - degree: <strong>Master's in CS – Machine Learning for Data Science</strong>
         university: Paris Descartes University
         image_file: /online-cv/assets/images/paris-descartes-logo.png
         size: 81px
         time: September 2022 - June 2023
-        details:
-
-      - degree: <strong>Master's in Applied Mathematics</strong>
-        university: Paris Dauphine-PSL University
-        image_file: /online-cv/assets/images/dauphine-logo.png
-        size: 101px
-        time: September 2021 - July 2022
-        details:
-
-      - degree: <strong>Bachelor's in Computer Science</strong> & <strong> Mathematics</strong>
-        university: Sorbonne University, Pierre and Marie Curie campus
-        image_file: /online-cv/assets/images/sorbonne-logo.png
-        size: 81px
-        time: September 2019 - July 2021
-        details:
+        details: |
+          - Machine Learning and Deep Learning
+          - Web Programming
+          - Natural Language Processing (NLP)
+          - Unix/Linux System Administration  
+            Mention: with highest honour
 
 experiences:
     title: Experiences
@@ -89,9 +82,16 @@ experiences:
         image_file: /online-cv/assets/images/sfr-altice-logo.png
         size: 81px
         details: |
-          - Deployed on-premise Kubernetes clusters for scalable Machine Learning operations.
-          - Implemented machine learning models within Kubernetes environment.
-          - Facilitated Jupyter notebooks deployment for collaborative data exploration and analysis
+          - Set up Kubernetes clusters using Kind for testing phases, followed by integrating kubectl to interact with the kube-apiserver once the cluster was configured.
+          - Gained an in-depth understanding of the Kubernetes environment, including low-level networking and high-level aspects, particularly its network architecture involving pod-to-pod, service-to-pod, and external-to-service networking.
+          - Installed a non-standalone version of Kubeflow for ML workflows.
+          - Created custom Docker images for Kubeflow notebooks and designed machine learning pipelines (data ingestion, processing, training, deployment to the model registry, and serving with KServe or Plumber) using the Kubeflow Pipelines (KFP) SDK.
+          - Conducted hyperparameter tuning of models using Katib.
+          - Built an architecture for batch inference (real-time inference with an online feature store was not completed).
+          - Registered models and datasets as artifacts using MinIO bucket storage integrated with Kubeflow.
+          - Deployed an inference service using KServe, with client-side requests executed via Kubeflow notebooks.
+          - Developed a comprehensive understanding of Kubeflow's architecture and various use cases.
+          - Due to the short internship duration, not all components of Kubeflow were explored.
 
       - role: <strong>Data Technician</strong>
         time: Summer 2019 & Summer 2022
@@ -100,7 +100,6 @@ experiences:
         size: 81px
         details: |
           - Developed VBA macros to automate data processing tasks.
-          - Processed and managed large CSV files for data analysis.
           - Verified data quality and ensured conformity to standards during data acquisition.
 
 projects:
@@ -119,6 +118,7 @@ projects:
         link: "https://www.kubeflow.org/"
         tagline: "Successfully deployed Kubeflow on a Kubernetes cluster for a full ML lifecycle management."
         details: |
+          
           - Deployed Kubeflow from scratch on a Kubernetes cluster, showcasing both DevOps and Data Engineering skills.
           - Configured and installed Kubeflow with a deep understanding of its software architecture, networking, and infrastructure to ensure successful deployment.
           - Implemented a complete end-to-end scalable ML pipeline, from notebook creation to model training, evaluation, deployment, and serving in production.
