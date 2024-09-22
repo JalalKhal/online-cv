@@ -3,7 +3,8 @@ sidebar:
 
     # Profile information
     name: Jalal Khaldi
-    tagline: Engineering Student
+    tagline:
+    descr: Student Engineer with a solid mathematical foundation and practical software development experience, eager to leverage data science for innovative solutions
     #avatar: profile.png  # Please place a 100x100 image in /assets/images/ folder.
 
     # Sidebar links
