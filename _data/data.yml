@@ -91,7 +91,6 @@ experiences:
           - Registered models and datasets as artifacts using MinIO bucket storage integrated with Kubeflow.
           - Deployed an inference service using KServe, with client-side requests executed via Kubeflow notebooks.
           - Developed a comprehensive understanding of Kubeflow's architecture and various use cases.
-          - Due to the short internship duration, not all components of Kubeflow were explored.
 
       - role: <strong>Data Technician</strong>
         time: Summer 2019 & Summer 2022
@@ -104,33 +103,44 @@ experiences:
 
 projects:
     title: Projects
-
     assignments:
-      - title: Clash Royale Gameplay Segmentation
-        link: "https://segment-anything.com/"
-        tagline: "Implemented Meta's SAM (Tranformer Based Model) for advanced image segmentation of gameplay elements."
+      - title: "MLflow-Based Machine Learning Infrastructure"
+        link: https://mlflow.moonkbr.fr/
+        tagline: "Developed a robust machine learning infrastructure for deploying MLflow and custom frameworks for ML workflows."
         details: |
-          - Studied SAM's research paper for an in-depth understanding of the model's suitability.
-          - Validated the model's effectiveness for Clash Royale segmentation tasks.
-          - Imported SAM via Hugging Face; scripted video extraction and segmentation.
+          - Set up a local server under Linux with a reverse-proxy using Traefik to route traffic to services deployed via Docker containers.
+          - Configured secure HTTPS connections using automated certificate creation via Let's Encrypt.
+          - Deployed multiple Docker services:
+            - GitLab repository.
+            - Docker image registry.
+            - MLflow server to manage experiment tracking and model versioning.
+            - Postgres database for storing datasets used in ML pipelines.
+            - VPN server for secure remote access to internal services via certificate-based authentication.
 
-      - title: Kubeflow Deployment on Kubernetes Cluster
-        link: "https://www.kubeflow.org/"
-        tagline: "Successfully deployed Kubeflow on a Kubernetes cluster for a full ML lifecycle management."
+      - title: "ML Easy - Custom Machine Learning Framework"
+        link: "https://github.com/JalalKhal/ml-easy"
+        tagline: "Developed a custom ML framework based on MLflow Recipes to streamline ML workflow management."
         details: |
-          
-          - Deployed Kubeflow from scratch on a Kubernetes cluster, showcasing both DevOps and Data Engineering skills.
-          - Configured and installed Kubeflow with a deep understanding of its software architecture, networking, and infrastructure to ensure successful deployment.
-          - Implemented a complete end-to-end scalable ML pipeline, from notebook creation to model training, evaluation, deployment, and serving in production.
+          - Created ML Easy, a fork of MLflow Recipes, to enhance ML workflow management.
+          - Implemented modular, recipe-based workflows for data ingestion, model training, evaluation, and deployment using YAML configurations.
+          - Designed a highly flexible and modular architecture leveraging advanced object-oriented programming principles:
+            - Utilized abstract base classes and interfaces to define common behaviors and enable easy extension.
+            - Developed a plugin system using interfaces, allowing users to easily add custom workflows.
+            - Employed duck typing to allow for flexible component interactions without strict type constraints.
+            - Implemented genericity to create reusable components adaptable to various data types and models.
 
-      - title: Open Source Reflection and Analysis at SNCF
-        link: "https://docs.google.com/document/d/12YOnekeXs5DlPdS8yQm9RYlRQaEplJP67MxEpo5rF08/edit?usp=sharing"
-        tagline: "A comprehensive study on the adoption and effectiveness of Open Source within the SNCF ecosystem."
+      - title: "ML Pipeline - End-to-End Machine Learning Workflow"
+        link: "https://github.com/JalalKhal/ml-pipeline"
+        tagline: "Built and deployed a full machine learning pipeline leveraging the ML Easy framework."
         details: |
-          - Conducted research with SNCF and Télécom Paris on Open Source practices and strategy.
-          - Analyzed SNCF’s Open Source ecosystem and internal DSI positioning.
-          - Interviewed key stakeholders to identify benefits and challenges of Open Source.
-
+          - Utilized the flexible architecture of the ML Easy framework to create a modular pipeline for data ingestion, transformation, model training, evaluation, and registration.
+          - Implemented configurable steps using YAML files, allowing for easy customization and extension of pipeline components.
+          - Integrated with MLflow for experiment tracking and model versioning.
+          - Automated the entire ML workflow while supporting various ML tasks.
+          - Implemented GitLab CI/CD pipelines for:
+            - Code formatting and automated testing
+            - Docker image building and publishing
+            - Deployment to production environments
 skills:
     title: programming language
     toolset:
