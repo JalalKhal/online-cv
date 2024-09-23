@@ -112,9 +112,9 @@ projects:
           - Set up a local server under Linux with a reverse-proxy using Traefik to route traffic to services deployed via Docker containers.
           - Configured secure HTTPS connections using automated certificate creation via Let's Encrypt.
           - Deployed multiple Docker services:
-            - GitLab repository.
+            - <u><a href = "https://gitlab.moonkbr.fr">GitLab</a></u> repository.
             - Docker image registry.
-            - MLflow server to manage experiment tracking and model versioning.
+            - <u><a href = "https://mlflow.moonkbr.fr">MLflow server </a> </u> to manage experiment tracking and model versioning.
             - Postgres database for storing datasets used in ML pipelines.
             - VPN server for secure remote access to internal services via certificate-based authentication.
 

@@ -235,6 +235,15 @@ p {
     margin-bottom: 5px;
     color: darken($theme-color, 15%);
   }
+  .project-link {
+    text-decoration: underline; /* Underlines the text */
+    color: darken($theme-color, 15%);; /* A typical link color (you can customize this) */
+    font-weight: bold; /* Makes the link title bold to emphasize it */
+  }
+  .project-link:hover {
+    color: #0056b3; /* Changes the color on hover for better visibility */
+    cursor: pointer; /* Shows the pointer cursor to indicate it’s clickable */
+  }
   .oss-section {
     .intro {
       margin-bottom: 30px;
