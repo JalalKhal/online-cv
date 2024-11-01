@@ -22,11 +22,8 @@ sidebar:
           level: Native
 
         - idiom: English
-          level: B2
-
-        - idiom: Spanish
-          level: A2
-
+          level: Professional Proficiency
+          
     interests:
       title: Interests
       info:
@@ -39,109 +36,93 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: "<strong>Double Degree : Master's in CS - DAC Paris </strong>"
-        university: Sorbonne University
-        image_file: /online-cv/assets/images/sorbonne-logo.png
-        size: 101px
-        time: September 2024 - July 2025
+      - degree: "<strong>Double Degree: Master's in CS - DAC Paris</strong>"
+        university: "Sorbonne University"
+        image_file: "/online-cv/assets/images/sorbonne-logo.png"
+        size: "101px"
+        time: "Sep 2024 - Jul 2025"
         details: |
-          - Neural network architectures (NNs, CNNs, RNNs, LLMs...)
-          - [Semi]-Supervised & unsupervised learning
-          - Reinforcement learning (Q-learning, Policy gradient, etc.)
-          - Emphasis on theory (statistical learning, optimization...)
+          - Specialized in neural networks (CNNs, RNNs, LLMs), reinforcement learning (Q-learning, policy gradient), and optimization methods
+          - Emphasis on theory, including statistical learning and advanced optimization techniques
 
-      - degree: <strong>MSc in Engineering</strong>
-        university: Télécom Paris
-        image_file: /online-cv/assets/images/telecom-paris-logo.png
-        size: 101px
-        time: September 2023 - July 2025
+      - degree: "<strong>MSc in Engineering</strong>"
+        university: "Télécom Paris"
+        image_file: "/online-cv/assets/images/telecom-paris-logo.png"
+        size: "101px"
+        time: "Sep 2023 - Jul 2025"
         details: |
-            - Data Science (ML standard algorithms (trees, linear regression, SVM...) and Deep Neural Networks)
-            - Economics (Digital Finance, Strategic Management of Companies..)
-            - Human Sciences (Anthropology, Sociology of Contemporary Digital Technology..)
-          
-              GPA : 3.9 / 4.0
+          - Focused on data science (ML algorithms, DNNs), digital economics, and social sciences (anthropology, digital technology impact)
+          - GPA: 3.9 / 4.0
 
-      - degree: <strong>Master's in CS – Machine Learning for Data Science</strong>
-        university: Paris Descartes University
-        image_file: /online-cv/assets/images/paris-descartes-logo.png
-        size: 81px
-        time: September 2022 - June 2023
+      - degree: "<strong>Master's in CS – ML for Data Science</strong>"
+        university: "Paris Descartes University"
+        image_file: "/online-cv/assets/images/paris-descartes-logo.png"
+        size: "81px"
+        time: "Sep 2022 - Jun 2023"
         details: |
-          - Machine Learning and Deep Learning
-          - Web Programming
-          - Natural Language Processing (NLP)
-          - Unix/Linux System Administration  
-            Mention: with highest honour
+          - Studied machine learning, deep learning, and NLP
+          - Gained experience in web programming and Unix/Linux system administration
+          - Graduated with highest honours
 
 experiences:
     title: Experiences
     info:
-      - role: <strong>Machine Learning Engineer Intern</strong>
-        time: Summer 2023
-        company: SFR, Paris
-        image_file: /online-cv/assets/images/sfr-altice-logo.png
-        size: 81px
+      - role: "<strong>Machine Learning Engineer Intern</strong>"
+        time: "Summer 2023"
+        company: "SFR, Paris"
+        image_file: "/online-cv/assets/images/sfr-altice-logo.png"
+        size: "81px"
         details: |
-          - Set up Kubernetes clusters using Kind for testing phases, followed by integrating kubectl to interact with the kube-apiserver once the cluster was configured.
-          - Gained an in-depth understanding of the Kubernetes environment, including low-level networking and high-level aspects, particularly its network architecture involving pod-to-pod, service-to-pod, and external-to-service networking.
-          - Installed a non-standalone version of Kubeflow for ML workflows.
-          - Created custom Docker images for Kubeflow notebooks and designed machine learning pipelines (data ingestion, processing, training, deployment to the model registry, and serving with KServe or Plumber) using the Kubeflow Pipelines (KFP) SDK.
-          - Conducted hyperparameter tuning of models using Katib.
-          - Built an architecture for batch inference (real-time inference with an online feature store was not completed).
-          - Registered models and datasets as artifacts using MinIO bucket storage integrated with Kubeflow.
-          - Deployed an inference service using KServe, with client-side requests executed via Kubeflow notebooks.
-          - Developed a comprehensive understanding of Kubeflow's architecture and various use cases.
+          - Configured Kubernetes clusters with Kind and kubectl, deepening knowledge in Kubernetes networking.
+          - Installed Kubeflow for ML workflows, creating custom Docker images and ML pipelines with KFP SDK.
+          - Conducted model tuning with Katib and set up batch inference architecture.
+          - Registered models and deployed inference services using MinIO and KServe, enhancing expertise in Kubeflow.
 
-      - role: <strong>Data Technician</strong>
-        time: Summer 2019 & Summer 2022
-        company: Kantar, Chambourcy, France
-        image_file: /online-cv/assets/images/kantar-logo.png
-        size: 81px
+      - role: "<strong>Data Technician</strong>"
+        time: "Summer 2019 & Summer 2022"
+        company: "Kantar, Chambourcy, France"
+        image_file: "/online-cv/assets/images/kantar-logo.png"
+        size: "81px"
         details: |
-          - Developed VBA macros to automate data processing tasks.
-          - Verified data quality and ensured conformity to standards during data acquisition.
+          - Automated data processing with VBA macros.
+          - Ensured data quality and standards during acquisition.
 
 projects:
     title: Projects
     assignments:
       - title: "MLflow-Based Machine Learning Infrastructure"
-        link: https://mlflow.moonkbr.fr/
-        tagline: "Developed a robust machine learning infrastructure for deploying MLflow and custom frameworks for ML workflows."
+        link: "https://mlflow.moonkbr.fr/"
+        tagline: "Developed a robust ML infrastructure for MLflow and custom ML workflows."
         details: |
-          - Set up a local server under Linux with a reverse-proxy using Traefik to route traffic to services deployed via Docker containers.
-          - Configured secure HTTPS connections using automated certificate creation via Let's Encrypt.
-          - Deployed multiple Docker services:
-            - <u><a href = "https://gitlab.moonkbr.fr">GitLab</a></u> repository.
-            - Docker image registry.
-            - <u><a href = "https://mlflow.moonkbr.fr">MLflow server </a> </u> to manage experiment tracking and model versioning.
-            - Postgres database for storing datasets used in ML pipelines.
-            - VPN server for secure remote access to internal services via certificate-based authentication.
+          - Configured a Linux server with Traefik as a reverse-proxy.
+          - Secured HTTPS connections using Let's Encrypt.
+          - Deployed Docker services:
+              - GitLab repository
+              - Docker image registry
+              - MLflow server for experiment tracking and model versioning
+              - Postgres database for dataset storage
+              - VPN server for secure access
 
       - title: "ML Easy - Custom Machine Learning Framework"
         link: "https://github.com/JalalKhal/ml-easy"
-        tagline: "Developed a custom ML framework based on MLflow Recipes to streamline ML workflow management."
+        tagline: "Built ML Easy, a framework enhancing MLflow Recipes for streamlined ML workflows."
         details: |
-          - Created ML Easy, a fork of MLflow Recipes, to enhance ML workflow management.
-          - Implemented modular, recipe-based workflows for data ingestion, model training, evaluation, and deployment using YAML configurations.
-          - Designed a highly flexible and modular architecture leveraging advanced object-oriented programming principles:
-            - Utilized abstract base classes and interfaces to define common behaviors and enable easy extension.
-            - Developed a plugin system using interfaces, allowing users to easily add custom workflows.
-            - Employed duck typing to allow for flexible component interactions without strict type constraints.
-            - Implemented genericity to create reusable components adaptable to various data types and models.
+          - Forked MLflow Recipes to create modular, YAML-configured workflows for data ingestion, training, evaluation, and deployment.
+          - Utilized advanced OOP principles for a flexible architecture:
+              - Abstract classes and interfaces for extensibility
+              - Plugin system for custom workflows
+              - Duck typing for flexible component interactions
 
       - title: "ML Pipeline - End-to-End Machine Learning Workflow"
         link: "https://github.com/JalalKhal/ml-pipeline"
-        tagline: "Built and deployed a full machine learning pipeline leveraging the ML Easy framework."
+        tagline: "Built a modular ML pipeline leveraging the ML Easy framework."
         details: |
-          - Utilized the flexible architecture of the ML Easy framework to create a modular pipeline for data ingestion, transformation, model training, evaluation, and registration.
-          - Implemented configurable steps using YAML files, allowing for easy customization and extension of pipeline components.
-          - Integrated with MLflow for experiment tracking and model versioning.
-          - Automated the entire ML workflow while supporting various ML tasks.
-          - Implemented GitLab CI/CD pipelines for:
-            - Code formatting and automated testing
-            - Docker image building and publishing
-            - Deployment to production environments
+          - Used ML Easy’s architecture to create an end-to-end ML pipeline with YAML-configured steps.
+          - Integrated MLflow for tracking and versioning.
+          - Automated the pipeline with GitLab CI/CD for:
+              - Code formatting and testing
+              - Docker image building and publishing
+              - Deployment to production environments
 skills:
     title: programming language
     toolset:
