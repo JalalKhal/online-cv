@@ -23,7 +23,7 @@ sidebar:
 
         - idiom: English
           level: Professional Proficiency
-          
+
     interests:
       title: Interests
       info:
@@ -90,39 +90,28 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: "MLflow-Based Machine Learning Infrastructure"
+      - title: "MLflow-Based ML Infrastructure"
         link: "https://mlflow.moonkbr.fr/"
-        tagline: "Developed a robust ML infrastructure for MLflow and custom ML workflows."
+        tagline: "Developed a scalable ML infrastructure for tracking and deployment."
         details: |
-          - Configured a Linux server with Traefik as a reverse-proxy.
-          - Secured HTTPS connections using Let's Encrypt.
-          - Deployed Docker services:
-              - GitLab repository
-              - Docker image registry
-              - MLflow server for experiment tracking and model versioning
-              - Postgres database for dataset storage
-              - VPN server for secure access
+          - Configured a Linux server with Traefik for reverse-proxy routing and automated HTTPS via Let's Encrypt.
+          - Deployed Docker-based services, including GitLab for version control, Docker image registry, MLflow for experiment tracking, Postgres for data storage, and a VPN for secure access.
 
-      - title: "ML Easy - Custom Machine Learning Framework"
+      - title: "ML Easy - Custom ML Framework"
         link: "https://github.com/JalalKhal/ml-easy"
-        tagline: "Built ML Easy, a framework enhancing MLflow Recipes for streamlined ML workflows."
+        tagline: "Created ML Easy, a framework extending MLflow Recipes for streamlined ML workflows."
         details: |
-          - Forked MLflow Recipes to create modular, YAML-configured workflows for data ingestion, training, evaluation, and deployment.
-          - Utilized advanced OOP principles for a flexible architecture:
-              - Abstract classes and interfaces for extensibility
-              - Plugin system for custom workflows
-              - Duck typing for flexible component interactions
+          - Developed modular, YAML-configured workflows for data ingestion, model training, evaluation, and deployment.
+          - Built using advanced OOP principles: abstract classes, interfaces, and a plugin system, allowing easy customization of workflows.
 
-      - title: "ML Pipeline - End-to-End Machine Learning Workflow"
+      - title: "ML Pipeline - End-to-End ML Workflow"
         link: "https://github.com/JalalKhal/ml-pipeline"
-        tagline: "Built a modular ML pipeline leveraging the ML Easy framework."
+        tagline: "Implemented a complete ML pipeline using the ML Easy framework."
         details: |
-          - Used ML Easy’s architecture to create an end-to-end ML pipeline with YAML-configured steps.
-          - Integrated MLflow for tracking and versioning.
-          - Automated the pipeline with GitLab CI/CD for:
-              - Code formatting and testing
-              - Docker image building and publishing
-              - Deployment to production environments
+          - Designed a modular ML pipeline architecture for flexible, YAML-configured steps covering data processing, training, and model deployment.
+          - Integrated MLflow for experiment tracking and version control.
+          - Automated the pipeline using GitLab CI/CD, supporting code formatting, testing, Docker image building, and deployment to production.
+
 skills:
     title: programming language
     toolset:
